@@ -40,7 +40,7 @@ const projects = [
     category: "Dev",
     commits: "189",
     image: "/my-portfolio.png",
-    deployLink: "https://myportfolio.vercel.app",
+    deployLink: "https://my-portfolio-azure-nu-86.vercel.app/",
     githubLink: "https://github.com/yourusername/portfolio",
   },
   {
