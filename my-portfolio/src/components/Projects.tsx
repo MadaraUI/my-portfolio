@@ -103,7 +103,7 @@ export function Projects() {
   return (
     <section id="projects" className="py-20 px-4 relative overflow-hidden">
       {/* Binary background */}
-      <div className="absolute inset-0 opacity-5 font-mono text-xs text-blue-400 overflow-hidden">
+      {/* <div className="absolute inset-0 opacity-5 font-mono text-xs text-blue-400 overflow-hidden">
         {Array.from({ length: 50 }).map((_, i) => (
           <motion.div
             key={i}
@@ -120,7 +120,7 @@ export function Projects() {
               .join(" ")}
           </motion.div>
         ))}
-      </div>
+      </div> */}
 
       <div className="max-w-[1230px] mx-auto relative z-10">
         <motion.div

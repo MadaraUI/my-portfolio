@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
 export const metadata = {
-  title: "Frontend Developer Portfolio",
+  title: "Madara's Portfolio",
   description: "A stunning portfolio showcasing frontend development skills",
 };
 export default function RootLayout({
