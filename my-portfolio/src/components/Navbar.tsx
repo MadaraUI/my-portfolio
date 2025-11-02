@@ -65,13 +65,18 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <motion.div
-            className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-yellow-400 bg-clip-text text-transparent"
+            className="w-20 h-20 flex items-center justify-center"
             whileHover={{
               scale: 1.05,
             }}
           >
-            MP
+            <img
+              src="/logo.png" 
+              alt="Logo"
+              className="w-full h-full object-contain"
+            />
           </motion.div>
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link, index) => (
