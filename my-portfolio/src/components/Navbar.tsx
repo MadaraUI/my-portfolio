@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { MenuIcon, XIcon } from "lucide-react";
+
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -11,32 +13,16 @@ export function Navbar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
   const navLinks = [
-    {
-      label: "Home",
-      href: "#home",
-    },
-    {
-      label: "About",
-      href: "#about",
-    },
-    {
-      label: "Services",
-      href: "#services",
-    },
-    {
-      label: "Skills",
-      href: "#skills",
-    },
-    {
-      label: "Projects",
-      href: "#projects",
-    },
-    {
-      label: "Contact",
-      href: "#contact",
-    },
+    { label: "Home", href: "#home" },
+    { label: "About", href: "#about" },
+    { label: "Services", href: "#services" },
+    { label: "Skills", href: "#skills" },
+    { label: "Projects", href: "#projects" },
+    { label: "Contact", href: "#contact" },
   ];
+
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     element?.scrollIntoView({
@@ -44,6 +30,7 @@ export function Navbar() {
     });
     setIsMobileMenuOpen(false);
   };
+
   return (
     <motion.nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -69,11 +56,12 @@ export function Navbar() {
             whileHover={{
               scale: 1.05,
             }}
+            onClick={() => scrollToSection("#home")} // ✅ Added click to scroll to hero section
           >
             <img
-              src="/logo.png" 
+              src="/logo.png"
               alt="Logo"
-              className="w-full h-full object-contain"
+              className="w-full h-full object-contain cursor-pointer"
             />
           </motion.div>
 
@@ -105,6 +93,7 @@ export function Navbar() {
               </motion.button>
             ))}
           </div>
+
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
@@ -120,6 +109,7 @@ export function Navbar() {
           </div>
         </div>
       </div>
+
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <motion.div
