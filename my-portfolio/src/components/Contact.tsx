@@ -11,6 +11,8 @@ import {
   CheckCircleIcon,
   XCircleIcon,
 } from "lucide-react";
+import { FaDribbble } from "react-icons/fa";
+import { FaBehance } from "react-icons/fa6";
 export function Contact() {
   const formRef = useRef<HTMLFormElement>(null);
   const [formData, setFormData] = useState({
@@ -53,25 +55,38 @@ export function Contact() {
     }
   };
   const socialLinks = [
-    {
-      icon: GithubIcon,
-      label: "GitHub",
-      href: "https://github.com/MadaraUI",
-      command: "git clone",
-    },
-    {
-      icon: LinkedinIcon,
-      label: "LinkedIn",
-      href: "https://www.linkedin.com/in/madara-perera-12a7b7225/",
-      command: "connect",
-    },
-    {
-      icon: MailIcon,
-      label: "Email",
-      href: "mailto:madaraperera301@gmail.com",
-      command: "mailto",
-    },
-  ];
+  {
+    icon: GithubIcon,
+    label: "GitHub",
+    href: "https://github.com/MadaraUI",
+    command: "git clone",
+  },
+  {
+    icon: LinkedinIcon,
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/madara-perera-12a7b7225/",
+    command: "connect",
+  },
+  {
+    icon: MailIcon,
+    label: "Email",
+    href: "mailto:madaraperera301@gmail.com",
+    command: "mailto",
+  },
+  {
+    icon: FaDribbble,
+    label: "Dribbble",
+    href: "https://dribbble.com/infinityUI", 
+    command: "dribble",
+  },
+  {
+    icon: FaBehance,
+    label: "Behance",
+    href: "https://www.behance.net/madaranirmani03", 
+    command: "behance",
+  },
+];
+
   return (
     <section id="contact" className="py-20 px-4 relative overflow-hidden">
       {/* Animated code background */}
