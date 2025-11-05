@@ -345,7 +345,7 @@ export function Hero() {
           })
         }
       >
-        <ChevronDownIcon className="w-8 h-8 text-gray-400 items-center justify-center" />
+        {/* <ChevronDownIcon className="w-8 h-8 text-gray-400 items-center justify-center" /> */}
       </motion.div>
     </motion.section>
   );
