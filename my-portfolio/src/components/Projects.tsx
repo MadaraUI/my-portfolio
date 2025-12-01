@@ -65,6 +65,31 @@ const projects = [
     deployLink: "https://dribbble.com/shots/22140073-Traveling-App-UI-Design",
     githubLink: "#",
   },
+
+   {
+    title: "E-Music Cloud - Music Streaming Platform",
+    description:
+      "Designed a complete application interface in Figma, focusing on modern, intuitive layouts optimized for trip planning, destination browsing, and user engagement.",
+    tech: ["Figma", "PS"],
+    gradient: "from-orange-500 to-ash-500",
+    category: "UI/UX",
+    image: "/Frame 1.png",
+    deployLink: "https://dribbble.com/shots/23223850-E-Music-Cloud-Online-Music-Platform",
+    githubLink: "#",
+  },
+
+  {
+    title: "Messenger App Design",
+    description:
+      "Designed a stylish messenger application interface in Figma, focusing on clean, intuitive layouts optimized for real-time messaging, media sharing, and user engagement.",
+    tech: ["Figma", "PS"],
+    gradient: "from-sky-blue-500 to-ash-500",
+    category: "UI/UX",
+    image: "/Frame 7.png",
+    deployLink: "https://dribbble.com/shots/22140073-Traveling-App-UI-Design",
+    githubLink: "#",
+  },
+
   {
     title: "Round Table Project",
     description:
