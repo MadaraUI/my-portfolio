@@ -90,6 +90,30 @@ const projects = [
     githubLink: "#",
   },
 
+   {
+    title: "Culinaria - Recipe Finder Web Application Design",
+    description:
+      "clean, user-friendly interface with a prominent search bar and visually appealing recipe cards that make discovering dishes effortless. The design prioritizes simplicity and clarity, ensuring smooth navigation between search, results, and detailed recipe views for an intuitive browsing experience.",
+    tech: ["Figma", "PS"],
+    gradient: "from-orange-800 to-ash-500",
+    category: "UI/UX",
+    image: "/Frame 9.png",
+    deployLink: "https://dribbble.com/shots/26979818-Culinaria-Recipe-Finder-Web-Application-Design",
+    githubLink: "#",
+  },
+
+    {
+    title: "Culinaria - Recipe Finder Web Application",
+    description:
+      "Culinaria — Recipe Finder Web Application is a clean, intuitive platform that helps users discover recipes quickly by searching ingredients or dish names. It offers recipe details with images and instructions, making meal planning and cooking inspiration effortless.",
+    tech: ["React", "Tailwind CSS", "JS", "Shadcn ui", "Framer Motion"],
+    gradient: "from-orange-800 to-ash-500",
+    category: "Dev",
+    image: "/Frame 9.png",
+    deployLink: "https://culinaria-recipe-finder-web-applica.vercel.app/",
+    githubLink: "#",
+  },
+
   {
     title: "Round Table Project",
     description:

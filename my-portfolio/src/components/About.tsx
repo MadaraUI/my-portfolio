@@ -283,8 +283,7 @@ export function About() {
                 once: true,
               }}
             >
-              I'm Madara Perera. A passionate UI/UX Engineer with 1 and 10
-              months of experience creating digital solutions that bridge the
+              I'm Madara Perera. A passionate UI/UX Engineer with 2 years of experience creating digital solutions that bridge the
               gap between functionality and aesthetics. I believe in the power
               of clean code, intuitive design, and meaningful user experiences.
               When I'm not coding, you'll find me exploring new technologies,
